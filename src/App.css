@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.App {
+  margin:5px auto;
+  padding: 5px auto;
+  width: 100%;
+  background-color: black;
+  border-style: groove;
+  height: 100%;
+  color: white;
+}
+
+span {
+  position: relative;
+    color: red;
+    font-weight: 500;
+    margin: 2px;
+    font-size: 1.5rem;
+}
+
+input {
+  height: 35px;
+  width: 300px;
+  margin: 2px 14px;
+  font-size: 1.5rem;
+}
+
+.deleteBtn {
+  width: 40px;
+  height: 3.5rem;
+  font-size: 0.9rem;
+  background: none;
+  position: absolute;
+  right: 10px;
+  top: -17px;
+  margin: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.doneBtn {
+  width: 40px;
+  font-size: 1.6rem;
+  color: green;
+  background: none;
+  position: absolute;
+  right: 55px;
+  top: -19px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.doneBtn:hover{
+  background: none;
+}
+
+.submit {
+  margin: 10px auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 12px auto;
+  border: 1px solid white;
+  width: 450px;
+  padding: 5px;
+}
