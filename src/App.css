@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 0px auto;
   text-align: center;
@@ -8,12 +7,15 @@
 
 .App {
   margin:5px auto;
-  padding: 5px auto;
-  width: 100%;
-  background-color: black;
+  padding: 5px;
+  background-color: #000;
   border-style: groove;
   height: 100%;
   color: white;
+}
+
+h1 {
+  font-size: 2.5em;
 }
 
 span {
@@ -65,8 +67,8 @@ input {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 ul li {
@@ -82,4 +84,54 @@ ul li {
   border: 1px solid white;
   width: 450px;
   padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    background-color: #000;
+    margin: 10px auto;
+    padding: 10px auto;
+  }
+  ul li {
+    font-size: 1rem;
+    margin: 10px auto;
+    border: 1px solid white;
+    width: 300px;
+    padding: 5px;
+  }
+  .doneBtn {
+    width: 20px;
+    font-size: 1.2rem;
+    right: 40px;
+    top: -14px;
+  }
+  .deleteBtn {
+    width: 40px;
+    height: 3rem;
+    font-size: 0.7rem;
+    background: none;
+    position: absolute;
+    right: 10px;
+    top: -17px;
+  }
+  span {
+    position: relative;
+      color: red;
+      font-weight: 500;
+      margin: 2px;
+      font-size: 1rem;
+  }
+  input {
+    height: 30px;
+    width: 250px;
+    margin: 2px 10px;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .submit {
+    padding: 5px;
+    font-size: 0.9em;
+  }
 }
