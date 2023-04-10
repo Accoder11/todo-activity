@@ -61,10 +61,10 @@ const App = () => {
 
   return (
     <div>
-      <h1>Cleto Todo App</h1>
+      <h1>My Todo App</h1>
       <div className="App">
       <span >Total: {add}</span>
-      <input type="text" id='input' maxLength={20} size={30}  value={input} onChange={setInputValue} placeholder='Add todo'/>
+      <input type="text" id='input' maxLength={20} size={20}  value={input} onChange={setInputValue} placeholder='Add todo'/>
       <button className="submit" onClick={() => {addTodo(), incrementValue()}}>Submit</button>
       <hr />
       <ul>
